@@ -1,0 +1,58 @@
+  body {
+    background-color: rgb(241, 243, 240);
+  }
+  
+  h1 {
+    color: rgb(24, 155, 231);
+    margin-left: 790px;
+    margin-top: -120px;
+    
+  }
+
+  form {
+    margin-left: 649px;
+    margin-top: 101px;
+    position: fixed;
+  }
+
+  button {
+    margin-left: 47px;
+    margin-top: 20px;
+  }
+
+  .Logo {
+    margin: 27px;
+    margin-left: 12px;
+    margin-top: 9px;
+    width: 110px;
+    height: 91px;
+    object-position: center;
+  }
+
+  .fieldset-inscription {
+    margin-right: 20px;
+    color: rgb(24, 155, 231);
+    font: 1rem 'Fira Sans', sans-serif;
+    width: 500px;
+    height: 400px;
+  }
+
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+  }
+
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+
+  .radio-container {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .radio-container label {
+    margin-left: 7px;
+  }
+

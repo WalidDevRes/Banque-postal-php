@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Banque Postal</title>
+
+</head>
+<header>
+       <!--Logo-->
+       <img src="Logo_La_Banque_postale_2022.svg.webp" class="Logo" alt="Logo de l'entreprise">
+
+
+       <h1>La Banque Postal</h1>
+</header>
+ 
+<body>
+<!--Page de traitement-->
+<form action="index.php" method="post">
+    <fieldset class="fieldset-inscription">
+        <legend>Page d'inscription a la banque Postal:</legend>
+    <div class="Prenom">
+        <label for="prenom">Prenom</label>
+        <input type="text" placeholder="Jean" id="prenom" name="prenom" required
+               minlength="1" maxlength="50" size="10">
+    </div>
+    
+    <div class="Nom">
+        <label for="nom">Nom</label>
+        <input type="text" placeholder="Dupont" id="nom" name="nom" required
+               minlength="1" maxlength="50" size="10">
+    </div>
+
+    <div class="Email">
+        <label for="email">E-mail</label>
+        <input type="text" placeholder="exemple@gmail.com" id="email" name="email" required
+               minlength="1" maxlength="50" size="10">
+    </div>
+
+    <div class="Numero">
+        <label for="numero">Numéro de téléphone</label>
+        <input type="text" id="numero" placeholder="06 xx xx xx xx" name="numero" required
+               minlength="10" maxlength="10" size="10">
+    </div>
+
+    <div class="Date">
+        <label for="date">Numéro de téléphone</label>
+        <input type="date" id="date" name="date" required
+        min="1950-01-01" max="2023-07-11">
+    </div>
+    <div class="radio-container">
+        <input type="radio" id="homme" name="genre" value="h" checked>
+        <label for="homme">Homme</label>
+      </div>
+      
+      <div class="radio-container">
+        <input type="radio" id="femme" name="genre" value="f">
+        <label for="femme">Femme</label>
+      </div>
+
+<!--Bouton-->
+<button onclick='myFunc()'>Envoyer</button>
+
+</fieldset>
+</form>
+</body>
+</html>
