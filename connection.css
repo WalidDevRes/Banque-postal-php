@@ -1,4 +1,4 @@
-  body {
+body {
     background-color: rgb(241, 243, 240);
   }
   
@@ -10,14 +10,14 @@
   }
 
   form {
-    margin-left: 649px;
+    margin-left: 677px;
     margin-top: 101px;
     position: fixed;
   }
 
   button {
-    margin-left: 47px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 103px;
   }
 
   .Logo {
@@ -26,21 +26,29 @@
     margin-top: 9px;
     width: 110px;
     height: 91px;
-    object-position: center;
+    object-position: right;
   }
 
   .fieldset-inscription {
-    margin-right: 20px;
+    margin-top: 75px;
+    margin-left: 84px;
     color: rgb(24, 155, 231);
     font: 1rem 'Fira Sans', sans-serif;
-    width: 500px;
-    height: 456px;
-  }
+    width: 295px;
+    height: 281px;
+}
+  
 
   label {
     display: block;
     font: 1rem 'Fira Sans', sans-serif;
   }
+
+  .Email,
+.Motdepasse{
+  margin-top: 30px;
+  margin-left: 80px;
+}
 
   input,
   label {
@@ -56,3 +64,5 @@
     margin-left: 7px;
   }
 
+
+  

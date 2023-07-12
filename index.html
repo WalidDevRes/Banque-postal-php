@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <title>Banque Postal</title>
 
 </head>
@@ -45,9 +45,14 @@
     </div>
 
     <div class="Date">
-        <label for="date">Numéro de téléphone</label>
+        <label for="date">Date de naissance</label>
         <input type="date" id="date" name="date" required
         min="1950-01-01" max="2023-07-11">
+    </div>
+    <div class="Motdepasse">
+        <label for="motdepasse">Mot de passe</label>
+        <input type="password" id="motdepasse" placeholder="Azerty1234" name="motdepasse" required
+               minlength="10" maxlength="100" size="10">
     </div>
     <div class="radio-container">
         <input type="radio" id="homme" name="genre" value="h" checked>
@@ -60,7 +65,7 @@
       </div>
 
 <!--Bouton-->
-<button onclick='myFunc()'>Envoyer</button>
+<button onclick=''>Envoyer</button>
 
 </fieldset>
 </form>

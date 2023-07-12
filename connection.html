@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="connection.css" />
+    <title>Banque Postal</title>
+
+</head>
+<header>
+       <!--Logo-->
+       <img src="Logo_La_Banque_postale_2022.svg.webp" class="Logo" alt="Logo de l'entreprise">
+
+
+       <h1>La Banque Postal</h1>
+</header>
+ 
+<body>
+<!--Page de traitement-->
+<form action="connection.php" method="post">
+    <fieldset class="fieldset-inscription">
+        <legend>Page de connection a la banque Postal:</legend>
+    <div class="Email">
+        <label for="email">E-mail</label>
+        <input type="text" placeholder="exemple@gmail.com" id="email" name="email" required
+               minlength="1" maxlength="50" size="10">
+    </div>
+    <div class="Motdepasse">
+        <label for="motdepasse">Mot de passe</label>
+        <input type="password" id="motdepasse" placeholder="Azerty1234" name="motdepasse" required
+               minlength="10" maxlength="100" size="10">
+    </div>
+
+<!--Bouton-->
+<button onclick=''>Envoyer</button>
+
+</fieldset>
+</form>
+</body>
+</html>
