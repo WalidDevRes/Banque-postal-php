@@ -14,15 +14,16 @@
     margin-top: 101px;
     position: fixed;
   }
-
-  button {
-    margin-left: 47px;
-    margin-top: 20px;
+  
+  .buttonv2,
+  .buttonv1 {
+    display: inline-flex;
+    align-items: center;
   }
-
+ 
   .Logo {
     margin: 27px;
-    margin-left: 12px;
+    margin-left: 50px;
     margin-top: 9px;
     width: 110px;
     height: 91px;
@@ -34,7 +35,7 @@
     color: rgb(24, 155, 231);
     font: 1rem 'Fira Sans', sans-serif;
     width: 500px;
-    height: 456px;
+    height: 496px;
   }
 
   label {
@@ -54,4 +55,11 @@
 
   .radio-container label {
     margin-left: 7px;
+  }
+
+  .Abouton{
+    margin-left: 368px;
+  }
+  .create{
+    margin-top: 20px;
   }
